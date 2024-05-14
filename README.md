@@ -55,21 +55,5 @@ python train_control.py --curriculum FFHQ_512 --output_dir train_ffhq_512 --warm
 ```
 python train_control.py --curriculum FFHQ_512 --output_dir train_ffhq_512 --load_dir load_dir --set_step 20001 --warmup1 5000 --warmup2 20000 --second
 ```
-
-## Citation
-If you use this code for your research, please cite our paper.
-```
-@article{tang20233dfaceshop,
-  title={3DFaceShop: Explicitly Controllable 3D-Aware Portrait Generation},
-  author={Tang, Junshu and Zhang, Bo and Yang, Binxin and Zhang, Ting and Chen, Dong and Ma, Lizhuang and Wen, Fang},
-  journal={IEEE Transactions on Visualization \& Computer Graphics},
-  number={01},
-  pages={1--18},
-  year={2023},
-  publisher={IEEE Computer Society}
-}
-
-```
-
-## Acknowledgments
-This code borrows heavily from [pi-GAN](https://github.com/marcoamonteiro/pi-GAN), [StyleGAN2](https://github.com/NVlabs/stylegan2) and [Deep3DFaceRecon](https://github.com/sicxu/Deep3DFaceRecon_pytorch).
+## 记录
+需要生成自己的头部姿态时，可以运行test_mine.py。运行命令与test.py一样。
