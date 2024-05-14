@@ -1,16 +1,3 @@
-# 3DFaceShop: Explicitly Controllable 3D-Aware Portrait Generation (TVCG 2023)
-![Teaser](imgs/Picture1.png)
-### [Project page](https://junshutang.github.io/control/index.html) |   [Paper](https://arxiv.org/pdf/2209.05434) 
-<!-- <br> -->
-[Junshu Tang](https://junshutang.github.io/),  [Bo Zhang](https://bo-zhang.me/), [Binxin Yang](https://orcid.org/0000-0003-4110-1986), [Ting Zhang](https://www.microsoft.com/en-us/research/people/tinzhan/), [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Lizhuang Ma](https://dmcv.sjtu.edu.cn/), and [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/).
-<!-- <br> -->
-
-
-## Abstract
->In contrast to the traditional avatar creation pipeline which is a costly process, contemporary generative approaches directly learn the data distribution from photographs. While plenty of works extend unconditional generative models and achieve some levels of controllability, it is still challenging to ensure multi-view consistency, especially in large poses. In this work, we propose a network that generates 3D-aware portraits while being controllable according to semantic parameters regarding pose, identity, expression and illumination. Our network uses neural scene representation to model 3D-aware portraits, whose generation is guided by a parametric face model that supports explicit control. While the latent disentanglement can be further enhanced by contrasting images with partially different attributes, there still exists noticeable inconsistency in non-face areas, e.g, hair and background, when animating expressions. We solve this by proposing a volume blending strategy in which we form a composite output by blending dynamic and static areas, with two parts segmented from the jointly learned semantic field. Our method outperforms prior arts in extensive experiments, producing realistic portraits with vivid expression in natural lighting when viewed from free viewpoints. It also demonstrates generalization ability to real images as well as out-of-domain data, showing great promise in real applications. 
-
-
-
 ## Installation
 
 Install dependencies:
